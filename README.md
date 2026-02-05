@@ -6,7 +6,7 @@ The goal is not to perfectly predict future prices, but to evaluate whether mach
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - **Model**: Random Forest Regressor  
 - **Target**: Next trading day's return / price movement  
@@ -16,7 +16,7 @@ The goal is not to perfectly predict future prices, but to evaluate whether mach
 
 ---
 
-## 📊 Features Used
+##  Features Used
 
 The model uses common technical indicators, including:
 
@@ -29,7 +29,7 @@ Feature importance analysis confirms the model prioritizes momentum and trend-ba
 
 ---
 
-## 📈 Model Evaluation & Visualization
+##  Model Evaluation & Visualization
 
 Several visualizations are used to interpret model behavior:
 
@@ -46,7 +46,7 @@ The model performs well during stable market regimes and shows increased error d
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Predictions are based solely on historical price data.
 - Random Forest models smooth extreme price movements and cannot extrapolate well during sudden regime changes.
@@ -54,7 +54,7 @@ The model performs well during stable market regimes and shows increased error d
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Compare with linear regression and gradient boosting models
 - Reframe prediction as classification (up/down movement)
@@ -63,7 +63,7 @@ The model performs well during stable market regimes and shows increased error d
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - pandas
@@ -74,7 +74,7 @@ The model performs well during stable market regimes and shows increased error d
 
 ---
 
-## 📎 Disclaimer
+##  Disclaimer
 
 This project is for educational and research purposes only.  
 It does not constitute financial advice.
